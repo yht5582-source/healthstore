@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="依餐點探索雲林縣115年輔導健康商家，篩選減糖、減鹽餐點與鄉鎮，尋找附近供應店家。">
+  <meta name="theme-color" content="#193c32">
+  <title>雲林健康好食｜從餐點找店家</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./data.js" defer></script><script src="./core.js" defer></script><script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#results">跳至餐點清單</a>
+<div class="shell">
+  <header><a class="brand" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M15 27C5 27 2 18 3 11c9 0 14 6 12 16" fill="#517b67"/><path d="M15 28C10 13 18 4 30 2c2 15-6 24-15 26" fill="#88aa72"/><path d="m14 29 9-18" fill="none" stroke="white" stroke-width="1.5"/></svg>雲林健康好食</a><span>115 年輔導餐點</span></header>
+  <main>
+    <section class="intro" aria-labelledby="title"><h1 id="title">今天，想吃點什麼？</h1><p>從喜歡的餐點，找到雲林的健康好味道。</p></section>
+    <section aria-label="搜尋與篩選餐點">
+      <div class="searchbar"><div class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜尋餐點、食材或店家" aria-label="搜尋餐點、食材或店家" autocomplete="off"></div><button id="locate" class="primary"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></svg><span>使用我的位置</span></button></div>
+      <div id="location-panel" class="location-panel" hidden><p id="location-status" role="status"></p><button id="clear-location" class="text-button" hidden>取消定位</button></div>
+      <nav id="categories" class="categories" aria-label="餐點分類"></nav>
+      <div class="filters"><label>健康元素<select id="health"><option value="">全部</option><option>減糖</option><option>減鹽</option><option>符合飲食建議</option></select></label><label>鄉鎮<select id="town"><option value="">全部鄉鎮</option></select></label><label>距離<select id="radius" disabled><option value="">不限距離</option><option value="1">1 公里內</option><option value="3">3 公里內</option><option value="5">5 公里內</option><option value="10">10 公里內</option></select></label></div>
+      <div class="filter-footer"><span id="filter-summary">先選想吃的，再看哪裡有。</span><button id="reset" class="text-button" hidden>清除篩選</button></div>
+    </section>
+    <section id="results" aria-labelledby="results-title"><div class="result-heading"><div><h2 id="results-title">餐點清單</h2><span id="count" role="status" aria-live="polite"></span></div><label class="sort"><span class="sr-only">餐點排序</span><select id="sort"><option value="original">原始順序</option><option value="distance" disabled>離我最近</option><option value="name">餐點名稱</option></select></label></div><div id="meals"></div><div id="empty" class="empty" hidden><h3>這個組合還沒有餐點</h3><p>試試其他關鍵字、放寬距離，或清除篩選。</p><button id="empty-reset" class="outline">顯示全部餐點</button></div><button id="more" class="outline more" hidden>載入更多餐點</button><noscript>請啟用 JavaScript 以使用餐點搜尋功能。</noscript></section>
+  </main>
+  <footer><p>115 年輔導健康商家資料 · 44 家商家 · 20 個鄉鎮市</p><details><summary>資料來源與使用說明</summary><p>依使用者提供的「115年輔導健康商家資料」整理。餐點分類為搜尋用途；健康標示僅適用於資料列出的餐點，不代表全店餐點。減糖、減鹽不等於無糖、無鹽；原資料未提供營養數值。</p><p>位置經 Google Maps 查核；距離為直線估算，不代表步行或行車距離。地址差異與查核日期列於店家詳情。餐點供應情形及聯絡方式請向店家確認。</p><p>定位僅於本次頁面計算距離，不儲存、不上傳。點選地圖或導航會開啟 Google Maps，由該服務處理路線。</p><p>資料整理日期：2026-09-18。<a href="./data.json" download>下載餐點與商家資料</a> · <a href="https://github.com/yht5582-source/healthstore" target="_blank" rel="noopener noreferrer">網站原始碼</a></p></details></footer>
+</div>
+<dialog id="detail" aria-labelledby="detail-title"><div class="dialog-top"><span>餐點供應店家</span><button id="close-detail" class="close" aria-label="關閉店家詳情"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><h2 id="detail-title"></h2><div id="detail-stores"></div></dialog>
+</body></html>
+

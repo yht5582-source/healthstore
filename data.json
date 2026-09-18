@@ -1,0 +1,1394 @@
+{
+  "year": 115,
+  "updated": "2026-09-18",
+  "source": "115年輔導健康商家資料",
+  "stores": [
+    {
+      "id": 1,
+      "town": "斗六市",
+      "name": "叁記",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣斗六市成功路198號",
+      "phones": [
+        "05-5321668"
+      ],
+      "lat": 23.7063535,
+      "lng": 120.5494359,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市成功路198號",
+      "sourcePhones": [
+        "05-5321668"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%8F%81%E8%A8%98%E6%96%97%E5%85%AD%E5%89%B5%E5%A7%8B%E5%BA%97/@23.7063535,120.5494359,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec902e4d052cd:0x69256bf7b72bffe7!8m2!3d23.7063535!4d120.5494359!16s%2Fg%2F11jft6nyb9",
+      "mapAddress": "640雲林縣斗六市成功里成功路198號",
+      "mapPhone": "05 532 1668",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "town": "斗六市",
+      "name": "轉角巷雞蛋糕",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣斗六市公正街18之1號",
+      "phones": [
+        "0916-313232"
+      ],
+      "lat": 23.7097178,
+      "lng": 120.5434657,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市公正街18之1號",
+      "sourcePhones": [
+        "0916-313232"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E8%BD%89%E8%A7%92%E5%B7%B7%E9%9B%9E%E8%9B%8B%E7%B3%95+%E6%96%97%E5%85%AD%E5%BA%97%EF%BC%88%E5%85%A8%E8%81%AF%E7%A6%8F%E5%88%A9%E4%B8%AD%E5%BF%83%E5%B0%8D%E9%9D%A2%EF%BC%89/@23.7097178,120.5434657,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec94e418bd943:0x714ec970e4a63232!8m2!3d23.7097178!4d120.5434657!16s%2Fg%2F11hzxfqhz4",
+      "mapAddress": "640雲林縣斗六市信義里公正街18號",
+      "mapPhone": "0916 313 232",
+      "note": "PDF 地址為公正街18之1號；Google Maps 標示公正街18號，電話相同。"
+    },
+    {
+      "id": 3,
+      "town": "斗六市",
+      "name": "秧漾早午晚餐盒",
+      "type": "健康餐盒",
+      "address": "雲林縣斗六市中和里太平路199號",
+      "phones": [
+        "0972-097298"
+      ],
+      "lat": 23.7070822,
+      "lng": 120.5406956,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市中和里太平路199號",
+      "sourcePhones": [
+        "0972-097298"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E7%A7%A7%E6%BC%BE%E6%97%A9%E5%8D%88%E6%99%9A%E9%A4%90%E7%9B%92/@23.7070822,120.5406956,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec904e788ebe1:0x24f2b101a690eb04!8m2!3d23.7070822!4d120.5406956!16s%2Fg%2F11fr3by77_",
+      "mapAddress": "640雲林縣斗六市中和里太平路199號",
+      "mapPhone": "05 537 6885",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 05 537 6885，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 4,
+      "town": "斗六市",
+      "name": "饗享濃豆漿斗六店",
+      "type": "飲料店",
+      "address": "雲林縣斗六市中堅西路296號",
+      "phones": [
+        "05-5320314"
+      ],
+      "lat": 23.7016931,
+      "lng": 120.5331782,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市中堅西路296號",
+      "sourcePhones": [
+        "05-5320314"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%A5%97%E4%BA%AB%E6%BF%83%E8%B1%86%E6%BC%BF%E5%B0%88%E8%B3%A3%E5%BA%97+%E6%96%97%E5%85%AD%E5%BA%97+%E9%99%84%E8%A8%AD%E7%83%98%E7%84%99%E9%BA%B5%E5%8C%85(%E5%8F%AF%E5%AE%85%E9%85%8D%E3%80%81%E5%8F%AF%E5%A4%96%E9%80%81)/@23.7016931,120.5331782,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec9005dfa833d:0xb1a170865a8d2631!8m2!3d23.7016931!4d120.5331782!16s%2Fg%2F11vrr48pc_",
+      "mapAddress": "640雲林縣斗六市鎮西里中堅西路296號",
+      "mapPhone": "05 532 0314",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "town": "斗六市",
+      "name": "野瘦派-斗六店",
+      "type": "健康餐盒",
+      "address": "雲林縣斗六市鎮南路20號",
+      "phones": [
+        "05-5370796"
+      ],
+      "lat": 23.7046174,
+      "lng": 120.5395765,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市鎮南路20號",
+      "sourcePhones": [
+        "05-5370796"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%87%8E%E7%98%A6%E6%B4%BE%E4%BD%8E%E5%8D%A1%E4%BE%BF%E7%95%B6-%E6%96%97%E5%85%AD%E5%BA%97/@23.7046174,120.5395765,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec9ab82a926dd:0x1d5fe9bd8361828e!8m2!3d23.7046174!4d120.5395765!16s%2Fg%2F11h11k30xp",
+      "mapAddress": "640雲林縣斗六市社口里鎮南路20號",
+      "mapPhone": "05 537 0796",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "town": "斗六市",
+      "name": "原食煮藝",
+      "type": "健康餐盒",
+      "address": "雲林縣斗六市漢口路96號",
+      "phones": [
+        "0972-918502"
+      ],
+      "lat": 23.7120327,
+      "lng": 120.5394139,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市漢口路96號",
+      "sourcePhones": [
+        "0972-918502"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%8E%9F%E9%A3%9F%E7%85%AE%E8%97%9D-%E6%96%97%E5%85%AD%E5%BA%97/@23.7120327,120.5394139,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec9e3aec39749:0x548583eb3ef785d7!8m2!3d23.7120327!4d120.5394139!16s%2Fg%2F11qmqx77vy",
+      "mapAddress": "640雲林縣斗六市三平里漢口路96號",
+      "mapPhone": "05 537 2787",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 05 537 2787，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 7,
+      "town": "斗六市",
+      "name": "唯榛好心亦全面橄欖油健康餐盒",
+      "type": "健康餐盒",
+      "address": "雲林縣斗六市民生南路252號",
+      "phones": [
+        "05-7007118"
+      ],
+      "lat": 23.6996992,
+      "lng": 120.5368822,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市民生南路252號",
+      "sourcePhones": [
+        "05-7007118"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%94%AF%E6%A6%9B%E5%A5%BD%E5%BF%83%E4%BA%A6%E5%81%A5%E5%BA%B7%E9%A4%90%E7%9B%92%EF%BC%88%E5%85%A8%E9%9D%A2%E6%A9%84%E6%AC%96%E6%B2%B9%EF%BC%89/@23.6996992,120.5368822,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec90466f27a9b:0x8c6d2ca25b6e7411!8m2!3d23.6996992!4d120.5368822!16s%2Fg%2F11wx5x7m__",
+      "mapAddress": "640雲林縣斗六市鎮南里民生南路252號",
+      "mapPhone": "05 700 7118",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "town": "斗六市",
+      "name": "野餐日斗六店",
+      "type": "健康餐盒",
+      "address": "雲林縣斗六市莊敬路374號",
+      "phones": [
+        "05-5371368"
+      ],
+      "lat": 23.7034458,
+      "lng": 120.5439595,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗六市莊敬路374號",
+      "sourcePhones": [
+        "05-5371368"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%87%8E%E9%A4%90%EF%BC%8C%E6%97%A5%E3%80%82%EF%BC%88%E6%96%97%E5%85%AD%E5%BA%97%EF%BC%89/@23.7034458,120.5439595,17z/data=!3m1!4b1!4m6!3m5!1s0x346ec9f6f437305b:0x6f019e2c78e14672!8m2!3d23.7034458!4d120.5439595!16s%2Fg%2F11sdxd5gys",
+      "mapAddress": "640雲林縣斗六市公正里莊敬路374號",
+      "mapPhone": "05 537 1368",
+      "note": ""
+    },
+    {
+      "id": 9,
+      "town": "斗南鎮",
+      "name": "岩葉拉麵(斗南店)",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣斗南鎮南昌路160號",
+      "phones": [
+        "05-5971966"
+      ],
+      "lat": 23.6732168,
+      "lng": 120.4780356,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗南鎮南昌路160號",
+      "sourcePhones": [
+        "05-5971966"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%B2%A9%E8%91%89%E6%8B%89%E9%BA%B5+%E6%96%97%E5%8D%97%E5%BA%97/@23.6732168,120.4780356,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb9ca6deac089:0xbd9dd1895c5870ec!8m2!3d23.6732168!4d120.4780356!16s%2Fg%2F11by_qcvdk",
+      "mapAddress": "630雲林縣斗南鎮南昌里南昌路160號",
+      "mapPhone": "05 597 1966",
+      "note": ""
+    },
+    {
+      "id": 10,
+      "town": "斗南鎮",
+      "name": "汶香米屋碗粿米糕",
+      "type": "小吃店",
+      "address": "雲林縣斗南鎮文元街57號",
+      "phones": [
+        "0953-899199"
+      ],
+      "lat": 23.6752263,
+      "lng": 120.4772461,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗南鎮文元街57號",
+      "sourcePhones": [
+        "0953-899199"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%B1%B6%E9%A6%99%E7%B1%B3%E5%B1%8B%E7%A2%97%E7%B2%BF%E7%B1%B3%E7%B3%95/@23.6752263,120.4772461,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb9ca3531220b:0xa13403725509333b!8m2!3d23.6752263!4d120.4772461!16s%2Fg%2F11c5_8h7qd",
+      "mapAddress": "630雲林縣斗南鎮南昌里文元街57號號",
+      "mapPhone": "0953 899 199",
+      "note": ""
+    },
+    {
+      "id": 11,
+      "town": "斗南鎮",
+      "name": "元堂手搖飲品專賣店",
+      "type": "飲料店",
+      "address": "雲林縣斗南鎮中山路115號",
+      "phones": [
+        "05-5970135"
+      ],
+      "lat": 23.6762769,
+      "lng": 120.4785199,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗南鎮中山路115號",
+      "sourcePhones": [
+        "05-5970135"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%85%83%E5%A0%82%E6%89%8B%E6%90%96%E9%A3%B2%E5%93%81%E5%B0%88%E8%B3%A3%E5%BA%97/@23.6762769,120.4785199,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb9306371f2bf:0xee2870b6e2cb0432!8m2!3d23.6762769!4d120.4785199!16s%2Fg%2F11gk5wb0n7",
+      "mapAddress": "630雲林縣斗南鎮中天里中山路115號",
+      "mapPhone": "05 597 0135",
+      "note": ""
+    },
+    {
+      "id": 12,
+      "town": "斗南鎮",
+      "name": "小豬漫步手作廚房",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣斗南鎮建國三路77巷87號",
+      "phones": [
+        "0920-934881"
+      ],
+      "lat": 23.6717567,
+      "lng": 120.4719175,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣斗南鎮建國三路77巷87號",
+      "sourcePhones": [
+        "0920-934881"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%B0%8F%E8%B1%AC%E6%BC%AB%E6%AD%A5%E6%89%8B%E4%BD%9C%E5%BB%9A%E6%88%BF%EF%BC%88%E7%87%9F%E6%A5%AD%E6%99%82%E9%96%93%E8%AB%8B%E4%BE%9DIG,+FB%E7%82%BA%E4%B8%BB%EF%BC%89/@23.6717567,120.4719175,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb9ef435f56d1:0xf66fd2cd20456c09!8m2!3d23.6717567!4d120.4719175!16s%2Fg%2F11h0krqlc0",
+      "mapAddress": "630雲林縣斗南鎮明昌里建國三路77巷87號",
+      "mapPhone": "0968 651 575",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 0968 651 575，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 13,
+      "town": "虎尾鎮",
+      "name": "秣馬鯛魚燒",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣虎尾鎮中山路54號",
+      "phones": [
+        "0975-172250"
+      ],
+      "lat": 23.7076303,
+      "lng": 120.4345565,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮中山路54號",
+      "sourcePhones": [
+        "0975-172250"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E7%A7%A3%E9%A6%AC%E9%AF%9B%E9%AD%9A%E7%87%92%E3%83%BB%E8%99%8E%E5%B0%BE/@23.7076303,120.4345565,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb0ab43d85b59:0x2f894c452c0590bc!8m2!3d23.7076303!4d120.4345565!16s%2Fg%2F11cmnlpdhv",
+      "mapAddress": "632雲林縣虎尾鎮中山里中山路54號",
+      "mapPhone": "0970 159 057",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 0970 159 057，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 14,
+      "town": "虎尾鎮",
+      "name": "鄉情日本料理",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣虎尾鎮復興路135號",
+      "phones": [
+        "05-6362235"
+      ],
+      "lat": 23.7078804,
+      "lng": 120.4288772,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮復興路135號",
+      "sourcePhones": [
+        "05-6362235"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%84%89%E6%83%85%E6%97%A5%E5%BC%8F%E6%96%99%E7%90%86-%E8%99%8E%E5%B0%BE%E5%BA%97/@23.7078804,120.4288772,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb0a9ed989b8b:0x97daded4d598133d!8m2!3d23.7078804!4d120.4288772!16s%2Fg%2F11xrh303z",
+      "mapAddress": "632雲林縣虎尾鎮立仁里復興路135號",
+      "mapPhone": "05 636 2235",
+      "note": ""
+    },
+    {
+      "id": 15,
+      "town": "虎尾鎮",
+      "name": "偶鵝嚐嚐鵝肉專賣店(虎尾店)",
+      "type": "飯麵館",
+      "address": "雲林縣虎尾鎮成德街102號",
+      "phones": [
+        "05-6329288"
+      ],
+      "lat": 23.7090661,
+      "lng": 120.4481678,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮成德街102號",
+      "sourcePhones": [
+        "05-6329288"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%81%B6%E9%B5%9D%E5%9A%90%E5%9A%90%E9%B5%9D%E8%82%89%E5%B0%88%E8%B3%A3%E5%BA%97-%E8%99%8E%E5%B0%BE%E5%BA%97/@23.7090661,120.4481678,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb788ed4fe991:0xc9be75793dd1fe74!8m2!3d23.7090661!4d120.4481678!16s%2Fg%2F11l1dgfrs9",
+      "mapAddress": "632雲林縣虎尾鎮平和里成德街102號",
+      "mapPhone": "05 632 9288",
+      "note": ""
+    },
+    {
+      "id": 16,
+      "town": "虎尾鎮",
+      "name": "虎尾眷村眷味廚房",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣虎尾鎮建國一村73號",
+      "phones": [
+        "05-6220985",
+        "0905-631669"
+      ],
+      "lat": 23.7139707,
+      "lng": 120.4212033,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮建國一村73號",
+      "sourcePhones": [
+        "05-6220985",
+        "0905-631669"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E8%99%8E%E5%B0%BE%E7%9C%B7%E6%9D%91%E7%9C%B7%E5%91%B3%E5%BB%9A%E6%88%BF%E3%80%90%E6%8E%A1%E9%A0%90%E7%B4%84%E5%88%B6%E3%80%91/@23.7139707,120.4212033,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb1e2ca1ef89d:0x9b3b4ce7f7e5601d!8m2!3d23.7139707!4d120.4212033!16s%2Fg%2F11khj8jrr5",
+      "mapAddress": "632雲林縣虎尾鎮建國里建國一村73號",
+      "mapPhone": "05 622 0985",
+      "note": ""
+    },
+    {
+      "id": 17,
+      "town": "虎尾鎮",
+      "name": "饗享濃豆漿 虎尾店",
+      "type": "飲料店",
+      "address": "雲林縣虎尾鎮民族路120號",
+      "phones": [
+        "05-6314822"
+      ],
+      "lat": 23.7118901,
+      "lng": 120.4381313,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮民族路120號",
+      "sourcePhones": [
+        "05-6314822"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%A5%97%E4%BA%AB%E6%BF%83%E8%B1%86%E6%BC%BF%E5%B0%88%E8%B3%A3%E5%BA%97+%E8%99%8E%E5%B0%BE%E5%BA%97+%E9%99%84%E8%A8%AD%E7%83%98%E7%84%99%E9%BA%B5%E5%8C%85(%E5%8F%AF%E5%AE%85%E9%85%8D%E3%80%81%E5%8F%AF%E5%A4%96%E9%80%81)/@23.7118901,120.4381313,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb75534aef75b:0xf8c74d380342015d!8m2!3d23.7118901!4d120.4381313!16s%2Fg%2F11cs0s5_dy",
+      "mapAddress": "63243雲林縣虎尾鎮東仁里民族路120號",
+      "mapPhone": "05 631 4822",
+      "note": ""
+    },
+    {
+      "id": 18,
+      "town": "虎尾鎮",
+      "name": "野瘦派-虎尾店",
+      "type": "健康餐盒",
+      "address": "雲林縣虎尾鎮中正路254號",
+      "phones": [
+        "05-6338228"
+      ],
+      "lat": 23.7056755,
+      "lng": 120.4305244,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮中正路254號",
+      "sourcePhones": [
+        "05-6338228"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%87%8E%E7%98%A6%E6%B4%BE%EF%BD%9C%E9%A4%90%E5%89%8D%E6%B9%AF%E2%80%A2%E4%B8%BB%E5%BB%9A%E9%A4%90%E7%9B%92%E5%B0%88%E8%B3%A3-%E8%99%8E%E5%B0%BE%E5%BA%97/@23.7056755,120.4305244,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebb1b180c8631:0x39a070ceccf4fd6d!8m2!3d23.7056755!4d120.4305244!16s%2Fg%2F11fv7l7x4d",
+      "mapAddress": "632雲林縣虎尾鎮西安里中正路254號",
+      "mapPhone": "05 633 8228",
+      "note": ""
+    },
+    {
+      "id": 19,
+      "town": "虎尾鎮",
+      "name": "樂苜手作",
+      "type": "早餐店(含早午餐店)",
+      "address": "雲林縣虎尾鎮中正路87號",
+      "phones": [
+        "0963-219369"
+      ],
+      "lat": 23.7085307,
+      "lng": 120.4347248,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣虎尾鎮中正路87號",
+      "sourcePhones": [
+        "0963-219369"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%A8%82%E8%8B%9C%E6%89%8B%E4%BD%9C+%E8%8B%9C%E8%93%BF%E8%8A%BD%E6%89%8B%E6%8D%B2/@23.7085307,120.4347248,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb7c11fb0959d:0x98de2da7e97301a9!8m2!3d23.7085307!4d120.4347248!16s%2Fg%2F11mvwfb62v",
+      "mapAddress": "632雲林縣虎尾鎮中山里中正路87號",
+      "mapPhone": "0963 219 369",
+      "note": ""
+    },
+    {
+      "id": 20,
+      "town": "西螺鎮",
+      "name": "阿二速食簡餐",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣西螺鎮中正路81號",
+      "phones": [
+        "05-5875439"
+      ],
+      "lat": 23.7987171,
+      "lng": 120.4618869,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣西螺鎮中正路81號",
+      "sourcePhones": [
+        "05-5875439"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%98%BF%E4%BA%8C%E9%80%9F%E9%A3%9F%E7%B0%A1%E9%A4%90/@23.7987171,120.4618869,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb43c2f52f519:0x236465c852a3ca03!8m2!3d23.7987171!4d120.4618869!16s%2Fg%2F1pztc4yhb",
+      "mapAddress": "648雲林縣西螺鎮正興里中正路81號",
+      "mapPhone": "05 587 5439",
+      "note": ""
+    },
+    {
+      "id": 21,
+      "town": "西螺鎮",
+      "name": "沐崧創意烘焙",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣西螺鎮平和南路309號",
+      "phones": [
+        "05-5872268"
+      ],
+      "lat": 23.7934949,
+      "lng": 120.4556617,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣西螺鎮平和南路309號",
+      "sourcePhones": [
+        "05-5872268"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%B2%90%E5%B4%A7%E5%89%B5%E6%84%8F%E7%83%98%E7%84%99/@23.7934949,120.4556617,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb422b0ef6e27:0x1a2f57c96d18eb8c!8m2!3d23.7934949!4d120.4556617!16s%2Fg%2F11cn5myvgl",
+      "mapAddress": "648雲林縣西螺鎮漢光里平和南路309號",
+      "mapPhone": "05 587 2268",
+      "note": ""
+    },
+    {
+      "id": 22,
+      "town": "西螺鎮",
+      "name": "ㄆㄤˋ烘焙",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣西螺鎮興農西路130巷50號",
+      "phones": [
+        "0979-097929"
+      ],
+      "lat": 23.7948717,
+      "lng": 120.4601247,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣西螺鎮興農西路130巷50號",
+      "sourcePhones": [
+        "0979-097929"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E8%A5%BF%E8%9E%BA%E3%84%86%E3%84%A4%CB%8B/@23.7941833,120.4578932,18z/data=!4m10!1m2!2m1!1z44SG44Sky4vng5jnhJkg6Zuy5p6X57ij6KW_6J666Y6u6IiI6L6y6KW_6LevMTMw5be3NTDomZ8!3m6!1s0x346eb591543c488d:0xb68bb3f8b2f16b40!8m2!3d23.7948717!4d120.4601247!15sCjjjhIbjhKTLi-eDmOeEmSDpm7LmnpfnuKPopb_onrrpjq7oiIjovrLopb_ot68xMzDlt7c1MOiZn1pKIkjjhIYg44SkIMuLIOeDmOeEmSDpm7Ig5p6XIOe4oyDopb8g6J66IOmOriDoiIgg6L6yIOilvyDot68gMTMwIOW3tyA1MCDomZ-SAQZiYWtlcnngAQA!16s%2Fg%2F11vf7ll5d2",
+      "mapAddress": "50號, No. 50號興農西路130巷正興里西螺鎮雲林縣648",
+      "mapPhone": "0979 097 929",
+      "note": ""
+    },
+    {
+      "id": 23,
+      "town": "土庫鎮",
+      "name": "陸壹咖哩",
+      "type": "飯麵館",
+      "address": "雲林縣土庫鎮中興路61號",
+      "phones": [
+        "05-6621082"
+      ],
+      "lat": 23.6794515,
+      "lng": 120.3898223,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣土庫鎮中興路61號",
+      "sourcePhones": [
+        "05-6621082"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%99%B8%E5%A3%B9%E5%92%96%E5%93%A9/@23.6794515,120.3898223,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebb72f56b819b:0x576f886a3605cc52!8m2!3d23.6794515!4d120.3898223!16s%2Fg%2F11v18sgb8n",
+      "mapAddress": "633雲林縣土庫鎮石廟里中興路61號",
+      "mapPhone": "05 662 0182",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 05 662 0182，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 24,
+      "town": "土庫鎮",
+      "name": "Danke奧地利廚房",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣土庫鎮新建路42-2號",
+      "phones": [
+        "05-6624362"
+      ],
+      "lat": 23.6786297,
+      "lng": 120.3912073,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣土庫鎮新建路42-2號",
+      "sourcePhones": [
+        "05-6624362"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/Danke%E5%A5%A7%E5%9C%B0%E5%88%A9%E5%BB%9A%E6%88%BF/@23.6786297,120.3912073,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebb862a2be07d:0x51d67276e73aef44!8m2!3d23.6786297!4d120.3912073!16s%2Fg%2F11pzjtbh08",
+      "mapAddress": "633雲林縣土庫鎮宮北里新建路42-2號",
+      "mapPhone": "05 662 4362",
+      "note": ""
+    },
+    {
+      "id": 25,
+      "town": "土庫鎮",
+      "name": "玉津咖啡-土庫店",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣土庫鎮中正路230號",
+      "phones": [
+        "05-6622899"
+      ],
+      "lat": 23.678257,
+      "lng": 120.3921343,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣土庫鎮中山路124號",
+      "sourcePhones": [
+        "05-6622899"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/Y.J+COFFEE+%E7%8E%89%E6%B4%A5%E5%92%96%E5%95%A1-%E9%9B%B2%E6%9E%97%E5%9C%9F%E5%BA%AB%E5%BA%97/@23.678257,120.3921343,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebbed599f5637:0x6b5d8e0fc6c2df4d!8m2!3d23.678257!4d120.3921343!16s%2Fg%2F11frjrccyy",
+      "mapAddress": "633雲林縣土庫鎮宮北里中正路230號",
+      "mapPhone": "05 662 2899",
+      "note": "Google Maps 地址為中正路230號，電話與 PDF 相同；PDF 原地址為中山路124號。導航採地圖地址，前往前請先致電確認。"
+    },
+    {
+      "id": 26,
+      "town": "北港鎮",
+      "name": "恩典手工餅乾坊",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣北港鎮新德路123號地下一樓",
+      "phones": [
+        "0911-750524"
+      ],
+      "lat": null,
+      "lng": null,
+      "locationStatus": "已找到門牌，店家位置待確認",
+      "sourceAddress": "雲林縣北港鎮新德路123號地下一樓",
+      "sourcePhones": [
+        "0911-750524"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/651%E9%9B%B2%E6%9E%97%E7%B8%A3%E5%8C%97%E6%B8%AF%E9%8E%AE%E6%96%B0%E8%A1%97%E9%87%8C%E6%96%B0%E5%BE%B7%E8%B7%AF123%E8%99%9F/@23.590072,120.3042493,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea2f06804fd35:0x614009c571bed09e!8m2!3d23.5900671!4d120.3068242!16s%2Fg%2F11l76bz9yh",
+      "mapAddress": "",
+      "mapPhone": "",
+      "addressLat": 23.5900671,
+      "addressLng": 120.3068242,
+      "note": "Google Maps 可找到原資料門牌，但尚未確認同名店家；不納入附近距離排序與範圍推薦，請先致電確認。"
+    },
+    {
+      "id": 27,
+      "town": "北港鎮",
+      "name": "阿美水餃",
+      "type": "飯麵館",
+      "address": "雲林縣北港鎮公園路115號",
+      "phones": [
+        "05-7838172"
+      ],
+      "lat": 23.5766658,
+      "lng": 120.3015953,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣北港鎮公園路115號",
+      "sourcePhones": [
+        "05-7838172"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%98%BF%E7%BE%8E%E6%B0%B4%E9%A4%83/@23.5766658,120.3015953,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea28bdfabacf9:0x599f5eadda98d979!8m2!3d23.5766658!4d120.3015953!16s%2Fg%2F11c4g50nc0",
+      "mapAddress": "651雲林縣北港鎮華勝里公園路115號",
+      "mapPhone": "05 783 8172",
+      "note": ""
+    },
+    {
+      "id": 28,
+      "town": "北港鎮",
+      "name": "永豪素食自助餐",
+      "type": "自助餐",
+      "address": "雲林縣北港鎮民治路19-8號",
+      "phones": [
+        "05-7836767"
+      ],
+      "lat": 23.5743003,
+      "lng": 120.3021112,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣北港鎮民治路19-8號",
+      "sourcePhones": [
+        "05-7836767"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%B0%B8%E8%B1%AA%E7%B4%A0%E9%A3%9F%E8%87%AA%E5%8A%A9%E9%A4%90/@23.5743003,120.3021112,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea33ff3282515:0x6925dcb29b30c9a5!8m2!3d23.5743003!4d120.3021112!16s%2Fg%2F11sdyp7vmx",
+      "mapAddress": "651雲林縣北港鎮華勝里民治路19-8號",
+      "mapPhone": "05 783 6767",
+      "note": ""
+    },
+    {
+      "id": 29,
+      "town": "古坑鄉",
+      "name": "華山觀止-虫二行館",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣古坑鄉華山村松林路54-5號",
+      "phones": [
+        "05-5900000"
+      ],
+      "lat": 23.5884798,
+      "lng": 120.5970119,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣古坑鄉松林54-5號",
+      "sourcePhones": [
+        "05-5900000"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E8%8F%AF%E5%B1%B1%E8%A7%80%E6%AD%A2-%E8%99%AB%E4%BA%8C%E8%A1%8C%E9%A4%A8/@23.5884798,120.5970119,17z/data=!4m9!3m8!1s0x346ec6c998dfb929:0xe6f09ca6841a3952!5m2!4m1!1i2!8m2!3d23.5884798!4d120.5970119!16s%2Fg%2F11h0gt_wp",
+      "mapAddress": "646雲林縣古坑鄉華山村松林路54-5號",
+      "mapPhone": "05 590 0000",
+      "note": ""
+    },
+    {
+      "id": 30,
+      "town": "古坑鄉",
+      "name": "劍湖山渡假大飯店",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣古坑鄉永光村大湖口67之8號",
+      "phones": [
+        "05-5828111"
+      ],
+      "lat": 23.614997,
+      "lng": 120.576939,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣古坑鄉67之8號",
+      "sourcePhones": [
+        "05-5828111"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%8A%8D%E6%B9%96%E5%B1%B1%E6%B8%A1%E5%81%87%E5%A4%A7%E9%A3%AF%E5%BA%97/@23.614997,120.576939,17z/data=!4m9!3m8!1s0x346e6f87b393394b:0x90030ff9bacfcdb3!5m2!4m1!1i2!8m2!3d23.614997!4d120.576939!16s%2Fg%2F1tf40pyj",
+      "mapAddress": "646雲林縣古坑鄉67之8號",
+      "mapPhone": "05 582 8500",
+      "addressSource": "https://tour.yunlin.gov.tw/mainssl/modules/MySpace/BlogInfo.php?xmlid=1037016",
+      "note": "完整地址依雲林縣旅遊網補齊，位置已由 Google Maps 核對。Google Maps 電話為05-5828500，PDF 為05-5828111，請先確認。"
+    },
+    {
+      "id": 31,
+      "town": "大埤鄉",
+      "name": "一畝田水餃",
+      "type": "小吃店",
+      "address": "雲林縣大埤鄉南和村中正路65號",
+      "phones": [
+        "0963-109029"
+      ],
+      "lat": 23.6451326,
+      "lng": 120.4282276,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣大埤鄉南和村中正路65號",
+      "sourcePhones": [
+        "0963-109029"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E4%B8%80%E7%95%9D%E7%94%B0%E6%B0%B4%E9%A4%83/@23.6451326,120.4282276,17z/data=!3m1!4b1!4m6!3m5!1s0x346ebbd0292a45b1:0x3d6b433c4d14c13d!8m2!3d23.6451326!4d120.4282276!16s%2Fg%2F11kpt54p04",
+      "mapAddress": "631雲林縣大埤鄉南和村中正路65號",
+      "mapPhone": "0963 109 029",
+      "note": ""
+    },
+    {
+      "id": 32,
+      "town": "莿桐鄉",
+      "name": "多利廚房",
+      "type": "自助餐",
+      "address": "雲林縣莿桐鄉中山路151號",
+      "phones": [
+        "05-5850133"
+      ],
+      "lat": 23.758219,
+      "lng": 120.4998921,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣莿桐鄉中山路151號",
+      "sourcePhones": [
+        "05-5850133"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%A4%9A%E5%88%A9%E5%BB%9A%E6%88%BF+%E4%BE%BF%E7%95%B6%E5%B0%88%E8%B3%A3/@23.758219,120.4998921,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb7c64e0ef349:0x2a5b4f42b7c0c0f!8m2!3d23.758219!4d120.4998921!16s%2Fg%2F11khsf_8hg",
+      "mapAddress": "647雲林縣莿桐鄉莿桐村中山路151號",
+      "mapPhone": "05 585 0133",
+      "note": ""
+    },
+    {
+      "id": 33,
+      "town": "莿桐鄉",
+      "name": "恐龍小姐有限公司",
+      "type": "飲料店",
+      "address": "雲林縣莿桐鄉四合村永基23-7號",
+      "phones": [
+        "05-5711921"
+      ],
+      "lat": 23.7756584,
+      "lng": 120.5252362,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣莿桐鄉四合村永基23-7號",
+      "sourcePhones": [
+        "05-5711921"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/Ms.Dinosaur+(%E6%89%8B%E5%B7%A5%E8%8A%8B%E5%9C%93%EF%BC%8C%E4%BB%99%E8%8D%89%EF%BC%8C%E9%A3%B2%E6%96%99%E5%B0%88%E8%B3%A3%E5%BA%97%EF%BC%89/@23.7756584,120.5252362,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb5bcce243fa9:0xb7c8cbfb53c57214!8m2!3d23.7756584!4d120.5252362!16s%2Fg%2F11lcf7bt2t",
+      "mapAddress": "647雲林縣莿桐鄉四合村永基路23之7號",
+      "mapPhone": "05 571 1921",
+      "note": ""
+    },
+    {
+      "id": 34,
+      "town": "林內鄉",
+      "name": "上美快餐",
+      "type": "自助餐",
+      "address": "雲林縣林內鄉林中村中正路432-1號",
+      "phones": [
+        "05-5899116"
+      ],
+      "lat": 23.75416,
+      "lng": 120.6120279,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣林內鄉林中村中正路432-1號",
+      "sourcePhones": [
+        "05-5899116"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E4%B8%8A%E7%BE%8E%E5%BF%AB%E9%A4%90/@23.75416,120.6120279,17z/data=!3m1!4b1!4m6!3m5!1s0x346ecbfc7243d629:0xf0aec91a5cc54305!8m2!3d23.75416!4d120.6120279!16s%2Fg%2F11dzdh7zpw",
+      "mapAddress": "643雲林縣林內鄉林中村中正路432-1號",
+      "mapPhone": "0919 659 713",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 0919 659 713，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 35,
+      "town": "二崙鄉",
+      "name": "順正素食",
+      "type": "小吃店",
+      "address": "雲林縣二崙鄉民權路24之6號",
+      "phones": [
+        "0909-952566"
+      ],
+      "lat": 23.7696235,
+      "lng": 120.4102131,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣二崙鄉民權路24之6號",
+      "sourcePhones": [
+        "0909-952566"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E4%BA%8C%E5%B4%99%E9%A0%86%E6%AD%A3%E7%B4%A0%E9%A3%9F%EF%BC%88%E6%9A%AB%E7%84%A1%E6%8F%90%E4%BE%9B%E5%85%A7%E7%94%A8%EF%BC%89/@23.7696235,120.4102131,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb11578a405d5:0x8bbbe52e84f864e7!8m2!3d23.7696235!4d120.4102131!16s%2Fg%2F11cnb8rgcf",
+      "mapAddress": "649雲林縣二崙鄉崙西村民權路24之6號",
+      "mapPhone": "0909 952 566",
+      "note": ""
+    },
+    {
+      "id": 36,
+      "town": "崙背鄉",
+      "name": "食光食堂",
+      "type": "自助餐",
+      "address": "雲林縣崙背鄉正義路243-6號",
+      "phones": [
+        "05-6969828"
+      ],
+      "lat": 23.761115,
+      "lng": 120.3565087,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣崙背鄉正義路243-6號",
+      "sourcePhones": [
+        "05-6969828"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%A3%9F%E5%85%89%E9%A3%9F%E5%A0%82/@23.761115,120.3565087,17z/data=!3m1!4b1!4m6!3m5!1s0x346eb10065f3e271:0x4de87edffd1eef2a!8m2!3d23.761115!4d120.3565087!16s%2Fg%2F11xn9mdv8h",
+      "mapAddress": "637雲林縣崙背鄉東明村正義路243-6號",
+      "mapPhone": "05 696 9828",
+      "note": ""
+    },
+    {
+      "id": 37,
+      "town": "麥寮鄉",
+      "name": "玉益食品",
+      "type": "烘焙店(含麵包及糕點)",
+      "address": "雲林縣麥寮鄉興華村架仔頭58號",
+      "phones": [
+        "05-6932848"
+      ],
+      "lat": 23.7485369,
+      "lng": 120.2937581,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣麥寮鄉興華村架仔頭58號",
+      "sourcePhones": [
+        "05-6932848"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E7%8E%89%E7%9B%8A%E9%A3%9F%E5%93%81/@23.7485369,120.2937581,17z/data=!3m1!4b1!4m6!3m5!1s0x346eaf7692cef659:0xdc3133caee51c8ef!8m2!3d23.7485369!4d120.2937581!16s%2Fg%2F11c6f1t25d",
+      "mapAddress": "59號, 興華村麥寮鄉雲林縣638",
+      "mapPhone": "05 693 2848",
+      "note": "PDF 門牌為興華村架仔頭58號；Google Maps 標示59號，店名與電話相同，請先致電確認入口。"
+    },
+    {
+      "id": 38,
+      "town": "台西鄉",
+      "name": "手調茶飲",
+      "type": "飲料店",
+      "address": "雲林縣台西鄉五港路447號",
+      "phones": [
+        "0963-269387"
+      ],
+      "lat": 23.7167105,
+      "lng": 120.2012489,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣台西鄉五港路447號",
+      "sourcePhones": [
+        "0963-269387"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%89%8B%E8%AA%BF%E8%8C%B6%E9%A3%B2%E5%8F%B0%E8%A5%BF%E5%BA%97/@23.7167105,120.2012489,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea72cdf2bdd8f:0xc828ba3ff79fa841!8m2!3d23.7167105!4d120.2012489!16s%2Fg%2F11r8mfxs56",
+      "mapAddress": "636雲林縣臺西鄉五港村五港路447號",
+      "mapPhone": "05 698 5678",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 05 698 5678，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 39,
+      "town": "東勢鄉",
+      "name": "曉明牛肉麵",
+      "type": "飯麵館",
+      "address": "雲林縣東勢鄉東勢東路102號",
+      "phones": [
+        "05-6997026"
+      ],
+      "lat": 23.674812,
+      "lng": 120.255504,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣東勢東路102號",
+      "sourcePhones": [
+        "05-6997026"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%9D%B1%E5%8B%A2%E7%89%9B%E8%82%89%E9%BA%B5%5C%E7%87%B4%E9%A3%AF/@23.674812,120.1792863,13z/data=!4m10!1m2!2m1!1z5puJ5piO54mb6IKJ6bq1IOmbsuael-e4o-adseWLouadsei3rzEwMuiZnw!3m6!1s0x346ea54716d61405:0xfc416afcbbe36f8f!8m2!3d23.674812!4d120.255504!15sCivmm4nmmI7niZvogonpurUg6Zuy5p6X57ij5p2x5Yui5p2x6LevMTAy6JmfWjYiNOabiSDmmI4g54mb6IKJIOm6tSDpm7Ig5p6XIOe4oyDmnbHli6Ig5p2x6LevIDEwMiDomZ-SARljaGluZXNlX25vb2RsZV9yZXN0YXVyYW504AEA!16s%2Fg%2F11gh9dwpsx",
+      "mapAddress": "635雲林縣東勢鄉東南村東勢東路102號",
+      "mapPhone": "05 699 7026",
+      "note": "Google Maps 店名為「東勢牛肉麵／燴飯」，門牌及電話與 PDF 一致；已補齊鄉名。"
+    },
+    {
+      "id": 40,
+      "town": "元長鄉",
+      "name": "ㄚ好嬸 古早味紅茶冰",
+      "type": "飲料店",
+      "address": "雲林縣元長鄉中山路22-17號",
+      "phones": [
+        "05-7885277"
+      ],
+      "lat": null,
+      "lng": null,
+      "locationStatus": "已找到門牌，店家位置待確認",
+      "sourceAddress": "雲林縣元長鄉中山路22-17號",
+      "sourcePhones": [
+        "05-7885277"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/655%E9%9B%B2%E6%9E%97%E7%B8%A3%E5%85%83%E9%95%B7%E9%84%89%E9%95%B7%E5%8D%97%E6%9D%91%E4%B8%AD%E5%B1%B1%E8%B7%AF22-17%E8%99%9F22-24%E8%99%9F/@23.6485638,120.3110342,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea49c0c1aa3eb:0xe08c2092b563e971!8m2!3d23.6485589!4d120.3136091!16s%2Fg%2F11fssx463q",
+      "mapAddress": "",
+      "mapPhone": "",
+      "addressLat": 23.6485589,
+      "addressLng": 120.3136091,
+      "note": "Google Maps 可找到原資料門牌，但尚未確認同名店家；不納入附近距離排序與範圍推薦，請先致電確認。"
+    },
+    {
+      "id": 41,
+      "town": "四湖鄉",
+      "name": "夏威夷木瓜牛奶",
+      "type": "飲料店",
+      "address": "雲林縣四湖鄉中正路337號",
+      "phones": [
+        "05-7876479"
+      ],
+      "lat": 23.6368301,
+      "lng": 120.2257078,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣四湖鄉中正路337號",
+      "sourcePhones": [
+        "05-7876479"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%9B%9B%E6%B9%96%E5%A4%8F%E5%A8%81%E5%A4%B7%E6%9C%A8%E7%93%9C%E7%89%9B%E5%A5%B6/@23.6368301,120.2257078,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea130abc1b8c1:0xde5678235af60ef7!8m2!3d23.6368301!4d120.2257078!16s%2Fg%2F11gms_bvwz",
+      "mapAddress": "654雲林縣四湖鄉四湖村中正路337號",
+      "mapPhone": "05 787 6479",
+      "note": ""
+    },
+    {
+      "id": 42,
+      "town": "褒忠鄉",
+      "name": "進德海鮮小食部",
+      "type": "餐廳(含簡餐店)",
+      "address": "雲林縣褒忠鄉中民村中正路88號",
+      "phones": [
+        "05-6972225"
+      ],
+      "lat": 23.6956583,
+      "lng": 120.3147608,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣褒忠鄉中民村中正路88號",
+      "sourcePhones": [
+        "05-6972225"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E9%80%B2%E5%BE%B7%E6%B5%B7%E9%AE%AE/@23.6956583,120.3147608,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea5198a7c3767:0x5eab83340bc05512!8m2!3d23.6956583!4d120.3147608!16s%2Fg%2F1pzx4nz98",
+      "mapAddress": "634雲林縣褒忠鄉中民村中正路88號",
+      "mapPhone": "05 697 2225",
+      "note": ""
+    },
+    {
+      "id": 43,
+      "town": "口湖鄉",
+      "name": "小雨燕小舖",
+      "type": "攤商",
+      "address": "雲林縣口湖鄉梧北村復興路232-1號",
+      "phones": [
+        "0937-249800"
+      ],
+      "lat": 23.5497375,
+      "lng": 120.1903844,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣口湖鄉梧北村復興路232-1號",
+      "sourcePhones": [
+        "0937-249800"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E5%B0%8F%E9%9B%A8%E7%87%95%E5%B0%8F%E8%88%96/@23.5497375,120.1903844,17z/data=!3m1!4b1!4m6!3m5!1s0x346e9f45addb01c1:0xb162fa0155b44cc0!8m2!3d23.5497375!4d120.1903844!16s%2Fg%2F11mr2rkr0q",
+      "mapAddress": "653雲林縣口湖鄉梧北村復興路232-1號",
+      "mapPhone": "0975 933 078",
+      "note": "PDF 電話與 Google Maps 不同；地圖電話為 0975 933 078，下方撥號保留 PDF 原電話，請先確認。"
+    },
+    {
+      "id": 44,
+      "town": "水林鄉",
+      "name": "涼心青草茶",
+      "type": "飲料店",
+      "address": "雲林縣水林鄉文化路22號",
+      "phones": [
+        "05-7852478"
+      ],
+      "lat": 23.575134,
+      "lng": 120.2461492,
+      "locationStatus": "Google Maps 店家位置已核對",
+      "sourceAddress": "雲林縣水林鄉文化路22號",
+      "sourcePhones": [
+        "05-7852478"
+      ],
+      "checkedAt": "2026-09-18",
+      "mapUrl": "https://www.google.com/maps/place/%E6%B6%BC%E5%BF%83%E9%9D%92%E8%8D%89%E8%8C%B6/@23.575134,120.2461492,17z/data=!3m1!4b1!4m6!3m5!1s0x346ea1fe861ba537:0xe1fd2c02cc0c0b2a!8m2!3d23.575134!4d120.2461492!16s%2Fg%2F11bxdvwpgp",
+      "mapAddress": "652雲林縣水林鄉水北村文化路22號",
+      "mapPhone": "05 785 2478",
+      "note": ""
+    }
+  ],
+  "offers": [
+    {
+      "storeId": 1,
+      "name": "蔥油雞飯",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 2,
+      "name": "原味雞蛋糕",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 3,
+      "name": "泰式打拋豬",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 4,
+      "name": "三色吐司",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 5,
+      "name": "拋拋雞",
+      "health": [
+        "減糖"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 5,
+      "name": "日式鹽漬鯖魚",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 6,
+      "name": "炙烤鯖魚餐盒",
+      "health": [
+        "減糖",
+        "減鹽",
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 7,
+      "name": "義式香草嫩雞胸餐盒",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 7,
+      "name": "BBQ皇家雞腿餐盒",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 7,
+      "name": "香煎鮭魚(智利)餐盒",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 7,
+      "name": "CEO美國板腱牛排餐盒",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 7,
+      "name": "香煎里肌豬排餐盒",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 7,
+      "name": "傳說鯖魚(挪威)餐盒",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 8,
+      "name": "蒜香舒肥雞胸",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 9,
+      "name": "薑汁燒肉便當",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 10,
+      "name": "碗粿",
+      "health": [
+        "減鹽"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 11,
+      "name": "冬瓜青茶",
+      "health": [
+        "減糖"
+      ],
+      "category": "飲品"
+    },
+    {
+      "storeId": 12,
+      "name": "五彩毛豆鮮蔬黑米飯",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 13,
+      "name": "芋泥煉乳鯛魚燒",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 14,
+      "name": "鹹豬肉炒飯",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 15,
+      "name": "鮮嫩鹹水無骨鵝肉飯便當",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 16,
+      "name": "香椿烘蛋",
+      "health": [
+        "減鹽"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 17,
+      "name": "三色吐司",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 18,
+      "name": "拋拋雞",
+      "health": [
+        "減糖"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 18,
+      "name": "日式鹽漬鯖魚",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 19,
+      "name": "營養滿分捲",
+      "health": [
+        "減糖"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 20,
+      "name": "蒜泥白肉便當",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 21,
+      "name": "甜甜圈",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 22,
+      "name": "手作藍莓麵包",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 23,
+      "name": "豚丼",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 24,
+      "name": "奧地利傳統蘋果塔",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 25,
+      "name": "脆皮法國燻雞",
+      "health": [
+        "減鹽"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 26,
+      "name": "菠蘿麵包",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 27,
+      "name": "麻醬麵",
+      "health": [
+        "減鹽"
+      ],
+      "category": "麵食"
+    },
+    {
+      "storeId": 28,
+      "name": "紅燒麵",
+      "health": [
+        "減鹽"
+      ],
+      "category": "麵食"
+    },
+    {
+      "storeId": 29,
+      "name": "窯烤麵包",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 30,
+      "name": "古坑桂竹筍",
+      "health": [
+        "減鹽"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 31,
+      "name": "魯肉飯",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 32,
+      "name": "多利魚便當",
+      "health": [
+        "符合飲食建議"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 33,
+      "name": "手作芋圓",
+      "health": [
+        "減糖"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 34,
+      "name": "燙空心菜",
+      "health": [
+        "減鹽"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 35,
+      "name": "什錦陽春麵",
+      "health": [
+        "減鹽"
+      ],
+      "category": "麵食"
+    },
+    {
+      "storeId": 36,
+      "name": "蜜汁雞腿便當",
+      "health": [
+        "減鹽"
+      ],
+      "category": "飯食・餐盒"
+    },
+    {
+      "storeId": 37,
+      "name": "芝麻卷",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 38,
+      "name": "香蕉牛奶",
+      "health": [
+        "減糖"
+      ],
+      "category": "飲品"
+    },
+    {
+      "storeId": 39,
+      "name": "牛肉麵",
+      "health": [
+        "減鹽"
+      ],
+      "category": "麵食"
+    },
+    {
+      "storeId": 40,
+      "name": "古早味紅茶",
+      "health": [
+        "減糖"
+      ],
+      "category": "飲品"
+    },
+    {
+      "storeId": 41,
+      "name": "黑糖珍珠",
+      "health": [
+        "減糖"
+      ],
+      "category": "飲品"
+    },
+    {
+      "storeId": 42,
+      "name": "黑胡椒牛肉",
+      "health": [
+        "減鹽"
+      ],
+      "category": "其他餐點"
+    },
+    {
+      "storeId": 43,
+      "name": "奶油口味雞蛋糕",
+      "health": [
+        "減糖"
+      ],
+      "category": "麵包・甜點"
+    },
+    {
+      "storeId": 44,
+      "name": "青草茶",
+      "health": [
+        "減糖"
+      ],
+      "category": "飲品"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const {selectMeals,distanceKm}=require('./core.js');
+const data=JSON.parse(fs.readFileSync(__dirname+'/data.json','utf8'));
+const state={category:'全部餐點',sort:'original'};
+assert.equal(data.stores.length,44);
+assert.equal(data.offers.length,51);
+assert.equal(new Set(data.stores.map(s=>s.town)).size,20);
+assert.equal(selectMeals(data,state).length,48);
+for(const o of data.offers){assert(data.stores.some(s=>s.id===o.storeId));assert(o.health.length>0);}
+const toast=selectMeals(data,{...state,query:'三色吐司'});
+assert.equal(toast.length,1);assert.equal(toast[0].offers.length,2);
+const douliu=data.stores.find(s=>s.id===4),huwei=data.stores.find(s=>s.id===17);
+const located={...state,query:'三色吐司',sort:'distance',location:{lat:huwei.lat,lng:huwei.lng}};
+assert.equal(selectMeals(data,located)[0].nearest.store.id,17,'Huwei must lead when user is at Huwei');
+assert.equal(selectMeals(data,{...located,location:{lat:douliu.lat,lng:douliu.lng}})[0].nearest.store.id,4,'Douliu must lead when location changes');
+assert.equal(selectMeals(data,{...located,radius:'1'})[0].offers.length,1);
+assert.equal(selectMeals(data,{...located,town:'斗六市'})[0].nearest.store.id,4,'Town filter applies before nearest selection');
+assert.equal(selectMeals(data,{...state,query:'日式鹽漬鯖魚',health:'減糖'}).length,0,'Health labels must not leak from another dish at the same merchant');
+assert.equal(selectMeals(data,{...state,query:'日式鹽漬鯖魚',health:'符合飲食建議'})[0].offers.length,2);
+assert.equal(selectMeals(data,{...state,query:'三色吐司',category:'麵包・甜點'}).length,1,'Classify food instead of merchant type');
+assert.equal(selectMeals(data,{...state,query:'not-a-real-meal'}).length,0);
+assert.equal(distanceKm({lat:23,lng:120},{lat:23,lng:120}),0);
+assert.equal(distanceKm({lat:23,lng:120},{lat:null,lng:null}),Infinity);
+assert.equal(selectMeals({...data,stores:data.stores.map(s=>s.id===17?{...s,lat:null,lng:null}:s)},{...located,radius:'1'}).length,0,'Unknown coordinates cannot appear as nearby');
+const sorted=selectMeals(data,{...state,sort:'distance',location:{lat:23.71,lng:120.54}});
+assert(sorted.every((m,i)=>i===0||m.nearest.km>=sorted[i-1].nearest.km));
+console.log('Passed: source counts, deduplication, nearest branch, location changes, radius, district, meal-specific health, category, empty state, missing coordinates and distance ordering.');
