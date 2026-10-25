@@ -7,8 +7,16 @@
   const escape=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const kmText=km=>Number.isFinite(km)?(km<.1?'少於 100 公尺':km<1?`${Math.round(km*1000/10)*10} 公尺`:`${km.toFixed(1)} 公里`):'距離待確認';
   const tags=health=>health.map(t=>`<span class="tag ${t==='減糖'?'sugar':t==='符合飲食建議'?'balanced':''}">${escape(t)}</span>`).join('');
-  $('categories').innerHTML=core.categories.map(c=>`<button type="button" aria-pressed="${c===state.category}" data-category="${c}">${c}</button>`).join('');
-  [...new Set(data.stores.map(s=>s.town))].forEach(t=>$('town').add(new Option(t,t)));
+  $('categories').innerHTML=core.categories.map(c=>`<button type="button" aria-pressed="false" data-category="${escape(c)}">${escape(c)}</button>`).join('');
+  const towns=[...new Set(data.stores.map(s=>s.town))];towns.forEach(t=>$('town').add(new Option(t,t)));
+  $('data-summary').textContent=`${data.year} 年輔導健康商家資料 · ${data.stores.length} 家商家 · ${towns.length} 個鄉鎮市`;
+  $('data-updated').textContent=data.updated;
+  const params=new URLSearchParams(location.search),pick=(v,allowed)=>allowed.includes(v)?v:'';
+  state.query=(params.get('q')||'').slice(0,60);state.category=pick(params.get('cat'),core.categories)||'全部餐點';
+  state.health=pick(params.get('health'),[...$('health').options].map(o=>o.value));state.town=pick(params.get('town'),towns);
+  state.sort=params.get('sort')==='name'?'name':'original';
+  $('search').value=state.query;$('health').value=state.health;$('town').value=state.town;$('sort').value=state.sort;
+  function syncUrl(){const p=new URLSearchParams();if(state.query.trim())p.set('q',state.query.trim());if(state.category!=='全部餐點')p.set('cat',state.category);if(state.health)p.set('health',state.health);if(state.town)p.set('town',state.town);if(state.sort==='name')p.set('sort','name');const qs=p.toString();history.replaceState(null,'',qs?`?${qs}`:location.pathname);}
   function render(){
     meals=core.selectMeals(data,state);
     const storeCount=new Set(meals.flatMap(m=>m.offers.map(o=>o.store.id))).size;
@@ -20,10 +28,12 @@
     }).join('');
     $('empty').hidden=meals.length!==0;$('more').hidden=meals.length<=state.limit;
     $('more').textContent=`載入更多餐點（尚有 ${Math.max(0,meals.length-state.limit)} 道）`;
-    const active=Boolean(state.query||state.category!=='全部餐點'||state.health||state.town||state.radius);
+    const active=Boolean(state.query.trim()||state.category!=='全部餐點'||state.health||state.town||state.radius);
     $('reset').hidden=!active;
     $('filter-summary').textContent=state.location?'同餐點優先顯示最近店家 · 距離為直線估算':active?'依選擇條件顯示餐點與供應店家。':'先選想吃的，再看哪裡有。';
-    [...$('categories').children].forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===state.category)));
+    const cats=$('categories');[...cats.children].forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===state.category)));
+    const on=cats.querySelector('[aria-pressed=true]'),pad=40;if(on){const l=on.offsetLeft-cats.offsetLeft;if(l-pad<cats.scrollLeft)cats.scrollLeft=Math.max(0,l-pad);else if(l+on.offsetWidth+pad>cats.scrollLeft+cats.clientWidth)cats.scrollLeft=l+on.offsetWidth+pad-cats.clientWidth;}
+    syncUrl();
   }
   function openMeal(index){const meal=meals[index];if(!meal)return;$('detail-title').textContent=meal.name;
     $('detail-stores').innerHTML=meal.offers.map((o,i)=>{const s=o.store;const destination=`${s.name} ${s.address}`;const mapUrl=s.mapUrl||`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(Number.isFinite(s.lat)&&Number.isFinite(s.lng)?`${s.lat},${s.lng}`:destination)}`;const nav=`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(Number.isFinite(s.lat)&&Number.isFinite(s.lng)?`${s.lat},${s.lng}`:destination)}`;
@@ -36,6 +46,7 @@
   $('categories').addEventListener('click',e=>{const b=e.target.closest('[data-category]');if(b){state.category=b.dataset.category;update();}});
   ['health','town','radius','sort'].forEach(id=>$(id).addEventListener('change',e=>{state[id]=e.target.value;update();}));
   $('meals').addEventListener('click',e=>{const b=e.target.closest('[data-meal]');if(b)openMeal(Number(b.dataset.meal));});
+  const cats=$('categories'),edge=()=>cats.classList.toggle('at-end',cats.scrollLeft+cats.clientWidth>=cats.scrollWidth-4);cats.addEventListener('scroll',edge,{passive:true});addEventListener('resize',edge);edge();
   $('more').addEventListener('click',()=>{state.limit+=12;render();});
   $('reset').addEventListener('click',reset);$('empty-reset').addEventListener('click',reset);
   $('close-detail').addEventListener('click',()=>$('detail').close());
@@ -46,12 +57,12 @@
     const request=++locationRequest;$('locate').disabled=true;$('locate').querySelector('span').textContent='正在取得位置…';status('請允許瀏覽器使用位置；位置僅在本頁計算距離。');
     navigator.geolocation.getCurrentPosition(pos=>{
       if(request!==locationRequest)return;
-      state.location={lat:pos.coords.latitude,lng:pos.coords.longitude};state.sort='distance';$('sort').value='distance';$('sort').querySelector('[value=distance]').disabled=false;$('sort').value='distance';$('radius').disabled=false;$('clear-location').hidden=false;$('locate').disabled=false;$('locate').querySelector('span').textContent='更新我的位置';
+      state.location={lat:pos.coords.latitude,lng:pos.coords.longitude};state.sort='distance';$('sort').querySelector('[value=distance]').disabled=false;$('sort').value='distance';$('radius').disabled=false;$('clear-location').hidden=false;$('locate').disabled=false;$('locate').querySelector('span').textContent='更新我的位置';
       const unknown=data.stores.filter(s=>!Number.isFinite(s.lat)||!Number.isFinite(s.lng)).length;
       status(`已依距離排序；同餐點優先顯示最近的供應店家。${pos.coords.accuracy>1000?'目前定位較粗略，距離僅供參考。':''}${unknown?`另有 ${unknown} 家位置待確認，不納入距離篩選。`:''}`);update();
     },err=>{if(request!==locationRequest)return;$('locate').disabled=false;$('locate').querySelector('span').textContent=state.location?'更新我的位置':'使用我的位置';status(({1:'未開啟定位權限，仍可使用鄉鎮與餐點篩選。',2:'暫時無法取得位置，請稍後重試或改用鄉鎮篩選。',3:'定位逾時，請重試或改用鄉鎮篩選。'})[err.code]||'定位失敗，請使用鄉鎮篩選。');},{enableHighAccuracy:true,timeout:15000,maximumAge:60000});
   });
-  $('clear-location').addEventListener('click',()=>{locationRequest++;state.location=null;state.radius='';state.sort='original';$('radius').value='';$('radius').disabled=true;$('sort').value='original';$('sort').querySelector('[value=distance]').disabled=true;$('locate').disabled=false;$('locate').querySelector('span').textContent='使用我的位置';$('clear-location').hidden=true;$('location-panel').hidden=true;update();});
+  $('clear-location').addEventListener('click',()=>{locationRequest++;state.location=null;state.radius='';if(state.sort==='distance')state.sort='original';$('radius').value='';$('radius').disabled=true;$('sort').value=state.sort;$('sort').querySelector('[value=distance]').disabled=true;$('locate').disabled=false;$('locate').querySelector('span').textContent='使用我的位置';$('clear-location').hidden=true;$('location-panel').hidden=true;update();});
   render();
 })();
 

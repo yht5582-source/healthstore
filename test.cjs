@@ -20,6 +20,9 @@ assert.equal(selectMeals(data,{...state,query:'日式鹽漬鯖魚',health:'減�
 assert.equal(selectMeals(data,{...state,query:'日式鹽漬鯖魚',health:'符合飲食建議'})[0].offers.length,2);
 assert.equal(selectMeals(data,{...state,query:'三色吐司',category:'麵包・甜點'}).length,1,'Classify food instead of merchant type');
 assert.equal(selectMeals(data,{...state,query:'not-a-real-meal'}).length,0);
+assert.deepEqual(selectMeals(data,{...state,query:'斗六 吐司'}).map(m=>m.name),['三色吐司'],'Space-separated terms must all match');
+assert.equal(selectMeals(data,{...state,query:'虎尾、吐司'})[0].offers.length,1,'Ideographic comma separates terms');
+assert.equal(selectMeals(data,{...state,query:'  '}).length,48,'Blank query shows everything');
 assert.equal(distanceKm({lat:23,lng:120},{lat:23,lng:120}),0);
 assert.equal(distanceKm({lat:23,lng:120},{lat:null,lng:null}),Infinity);
 assert.equal(selectMeals({...data,stores:data.stores.map(s=>s.id===17?{...s,lat:null,lng:null}:s)},{...located,radius:'1'}).length,0,'Unknown coordinates cannot appear as nearby');

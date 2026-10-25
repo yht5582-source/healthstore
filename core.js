@@ -4,7 +4,7 @@
   function normalize(value){return String(value).normalize('NFKC').toLowerCase().replace(/台/g,'臺').replace(/[\s·・\-()（）]/g,'');}
   function distanceKm(a,b){if(!a||!Number.isFinite(b.lat)||!Number.isFinite(b.lng))return Infinity;const r=Math.PI/180,dlat=(b.lat-a.lat)*r,dlng=(b.lng-a.lng)*r;const v=Math.sin(dlat/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dlng/2)**2;return 6371*2*Math.atan2(Math.sqrt(v),Math.sqrt(Math.max(0,1-v)));}
   function selectMeals(data,state){
-    const byStore=new Map(data.stores.map(s=>[s.id,s]));const groups=new Map();const terms=normalize(state.query||'').split(/[,，]/).filter(Boolean);
+    const byStore=new Map(data.stores.map(s=>[s.id,s]));const groups=new Map();const terms=String(state.query||'').normalize('NFKC').split(/[\s,，、]+/).map(normalize).filter(Boolean);
     for(const offer of data.offers){const store=byStore.get(offer.storeId);if(!store)continue;
       if(state.category&&state.category!=='全部餐點'&&offer.category!==state.category)continue;
       if(state.health&&!offer.health.includes(state.health))continue;
